@@ -42,5 +42,29 @@ Challenges:
 </ul>
 
 
-Keyword Spotting Pipeline:
+### Keyword Spotting Architecture:
+![Alt text](image.png)
 
+### KS Datasets:
+WHo are the users? Need rich data of audio to train
+what do you need? Choosing the rght keyword
+What task are you solving? How to interact with ?
+How does the real world make this difficult? Background noises need to be accounted for in the dataset and training model
+
+#### Speech Commands: A Dataset for Limited Speech Recognition
+Recorded as individual words not sentences
+1000-4000 recordings per word
+>2,500 volunteers
+Recorded with background noise included
+
+TinyMl datasets are much more specific and focussed. THe berevity and size of preexisting datasets are differen tthen what can bne used for TinyML
+
+### Data Collection and Pre-Processing
+Sensor Data - 
+The wave forms of the audio signal look different and within this signal we must locate the actual word -  THuis is called alignment
+Extract critical features. 
+
+Every signal is a composition of different signals. So what we must extract is the signal decomposition.
+Fourier (FFt) - What frequencies are present in the signal
+
+Spectograms are created to visualize the signal frequencies.
