@@ -68,3 +68,8 @@ Every signal is a composition of different signals. So what we must extract is t
 Fourier (FFt) - What frequencies are present in the signal
 
 Spectograms are created to visualize the signal frequencies.
+
+## A Keyword Spotting Model
+The model must be smaler then even the quatiized model.
+
+USE: tiny_conv, 1 convolution layer and one dense layer to ouput layer.
