@@ -73,3 +73,24 @@ Spectograms are created to visualize the signal frequencies.
 The model must be smaler then even the quatiized model.
 
 USE: tiny_conv, 1 convolution layer and one dense layer to ouput layer.
+
+
+## Training The Model
+
+### Metrics
+Which metrics matter?
+
+Accuracy
+    Dont want too many False Positives( the keywaord is yess and saying something similar to yess, iss, sss is counted a correct)
+
+ROC Curve - Graphical representation of 
+    False Positivv eand Flase Negative
+        Accuracy is measured a s a trade off between false accept rate(FAR) and false reject rate(FRR)
+        Choose an operating point - the correct location between the two points mentioned above.
+            ex. Sensitivity is dependant on device location, native language
+
+Efficiency - Latency
+    Must be Fast, cant use too much battery
+
+## Streaming Audio
+Detect a word within an audio sequence
