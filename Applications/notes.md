@@ -69,13 +69,13 @@ Fourier (FFt) - What frequencies are present in the signal
 
 Spectograms are created to visualize the signal frequencies.
 
-## A Keyword Spotting Model
+### A Keyword Spotting Model
 The model must be smaler then even the quatiized model.
 
 USE: tiny_conv, 1 convolution layer and one dense layer to ouput layer.
 
 
-## Training The Model
+### Training The Model
 
 ### Metrics
 Which metrics matter?
@@ -92,5 +92,13 @@ ROC Curve - Graphical representation of
 Efficiency - Latency
     Must be Fast, cant use too much battery
 
-## Streaming Audio
-Detect a word within an audio sequence
+### Streaming Audio
+Detect a word within an complex audio sequence
+
+### Cascade Architecture
+the Pipline to deplloy keyword spotting on tinyml
+Gives complicated task to more powerfil models and allows fo r better accuracy. Cascade architecture works by having multiple operating points, ex. microcontroller to phone to cloud.
+One of the major benefits of cascade architecture is that it prevents us from having to access powerful cloud computing operations every time we need to complete a task, which greatly saves on energy and improves battery lif
+
+## 1.6 Introduction to Data Engineering
+Consists of defining requirements, recording data, processing it, and improving the datasets.
