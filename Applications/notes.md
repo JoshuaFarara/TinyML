@@ -102,3 +102,14 @@ One of the major benefits of cascade architecture is that it prevents us from ha
 
 ## 1.6 Introduction to Data Engineering
 Consists of defining requirements, recording data, processing it, and improving the datasets.
+
+### Dataset Standards: Speech Commands
+Understanding the operational task that is also 
+Data Colection for over 1000 examples for each word
+KEY POINT: Usable by everyone
+
+Ability to Compare, Benchmark and Imporove on datasets
+
+
+
+### Reading Assignmnet: Speech Commands Paper
