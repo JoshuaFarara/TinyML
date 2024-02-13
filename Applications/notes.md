@@ -113,3 +113,45 @@ Ability to Compare, Benchmark and Imporove on datasets
 
 
 ### Reading Assignmnet: Speech Commands Paper
+
+### Crowdsourcing Data for the Long Tail
+
+Cost Model v. Community Model
+essentially
+Limited Scale v. Social Good
+
+[Commonvoice.org](https://commonvoice.mozilla.org/en) - allows for the building of datasets where someone can record their voice and different languages to contribute to a platform designed to build speech recognition
+
+File Structure:
+    Valid
+    Invalid
+    Other
+
+Interesting Attributes
+    Permissive License
+    Many contributors
+    Metadata
+
+### Reusing and Adapting Existing Datasets
+Data Collection is Difficult!
+Transfer Learning
+Pretrained Models: AI DAta LAbeling Assistant
+Generate your own data
+    Simulations
+    ML models
+
+### Responsible Data Collection
+Biases
+
+Keyword Spotting Potential Bias:
+    Gender
+    Age Group
+    Accent
+    Dialect
+    Language
+
+How can you work to avoid bias in your dataset?
+
+
+
+
