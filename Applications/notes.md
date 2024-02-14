@@ -141,6 +141,7 @@ Generate your own data
     ML models
 
 ### Responsible Data Collection
+
 Biases
 
 Keyword Spotting Potential Bias:
