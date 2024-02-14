@@ -152,6 +152,9 @@ Keyword Spotting Potential Bias:
 
 How can you work to avoid bias in your dataset?
 
+## 1.7 Visual Wake Words
 
+Visual Wake Words represents a common TinyML visual use case of identifying whether an object (or a person) is present in the image or not.
 
+### Challenges
 
