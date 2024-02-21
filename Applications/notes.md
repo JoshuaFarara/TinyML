@@ -159,3 +159,4 @@ Visual Wake Words represents a common TinyML visual use case of identifying whet
 
 ### Challenges
 
+## Transfer Learning for VWW
